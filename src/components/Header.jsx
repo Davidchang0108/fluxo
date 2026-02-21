@@ -18,7 +18,7 @@ export default function Header() {
 
   return (
     <div className="header">
-      <h1>Mis Finanzas</h1>
+      <h1>fluxo</h1>
       {currentUser && (
         <div className="user-info">
           <span>{currentUser.email}</span>
